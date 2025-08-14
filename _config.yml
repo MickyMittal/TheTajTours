@@ -1,0 +1,28 @@
+title: "The Taj Tours"
+description: "Curated Indian travel itineraries, tips, and inspiration."
+url: "https://YOUR_USERNAME.github.io"
+baseurl: "/the-taj-tours"
+markdown: kramdown
+theme: minima
+collections:
+  tours:
+    output: true
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "tours"
+    values:
+      layout: tour
+      author: "The Taj Tours"
+navigation:
+  - title: Home
+url: "https://YOUR_USERNAME.github.io"
+  - title: Tours
+url: "https://YOUR_USERNAME.github.io"
+  - title: About
+url: "https://YOUR_USERNAME.github.io"
+  - title: Contact
+url: "https://YOUR_USERNAME.github.io"
+social:
+  email: "hello@thetajtours.example"
