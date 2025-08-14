@@ -1,0 +1,28 @@
+title: "The Taj Tours"
+description: "Curated Indian travel itineraries, tips, and inspiration."
+url: ""         # leave blank; GitHub Pages will inject the correct domain
+baseurl: ""     # use relative_url everywhere so this can be blank
+markdown: kramdown
+theme: minima
+collections:
+  tours:
+    output: true
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "tours"
+    values:
+      layout: tour
+      author: "The Taj Tours"
+navigation:
+  - title: Home
+    url: /
+  - title: Tours
+    url: /#tours
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+social:
+  email: "hello@thetajtours.example"
