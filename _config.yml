@@ -1,7 +1,7 @@
 title: "The Taj Tours"
 description: "Curated Indian travel itineraries, tips, and inspiration."
-url: "https://YOUR_USERNAME.github.io"
-baseurl: "/the-taj-tours"
+url: "https://USERNAME.github.io"    # replace USERNAME
+baseurl: "/thetajtours"
 markdown: kramdown
 theme: minima
 collections:
